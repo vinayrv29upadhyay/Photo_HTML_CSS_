@@ -154,8 +154,6 @@ img {
     padding: 0 20px;
   }
 }
-
-/* Social Media Post Section */
 /* Social Media Post Section */
 .social-media-post {
   background-color: white;
@@ -466,7 +464,7 @@ footer {
 .social-icons a img {
   width: 25px;
   height: 25px;
-  filter: invert(100%); /* Makes the icons white */
+  filter: invert(100%);
   transition: filter 0.3s;
 }
 
@@ -503,14 +501,14 @@ footer {
 
 /* Logo Section Styling */
 .logo-section img {
-  width: 100px; /* Set a smaller width */
-  height: auto; /* Maintain the aspect ratio */
-  max-width: 100%; /* Ensure responsiveness */
-  object-fit: contain; /* Prevent distortion */
+  width: 100px; 
+  height: auto; 
+  max-width: 100%;
+  object-fit: contain; 
 }
 
 @media (max-width: 768px) {
   .logo-section img {
-    width: 80px; /* Reduce size further on smaller screens */
+    width: 80px; 
   }
 }
